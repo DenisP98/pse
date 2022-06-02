@@ -6,7 +6,23 @@ kernel:
     resource: ../src/Kernel.php
     type: annotation
 
+index:
+    path: /AncaAdrian
+    controller: App\Controller\index
 
 Qumseya-Ibrahim:
     path: /qumseya-Ibrahim
     controller: App\Controller\QumseyaIbrahimController::number
+
+
+Precup-Cristian:
+    path: /PrecupCristian
+    controller: App\Controller\PrecupCristianController::number
+
+Puia-Daniela:
+    path: /PuiaDaniela
+    controller: App\Controller\PuiaDanielaController::number
+
+MirceaRaul:
+    path: /MirceaRaul
+    controller: App\Controller\MirceaRaulController::number
